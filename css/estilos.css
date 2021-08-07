@@ -1,0 +1,196 @@
+/*Todo*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Baloo Chettan 2';
+}
+
+/*Main*/
+
+.bg {
+    background: rgb(99, 43, 68);
+}
+
+/*navbar*/
+
+.nav-wrapper .container ul li:hover {
+    background-color: rgb(99, 43, 68);
+    transition: .5s;
+}
+
+.nav-wrapper .container ul li {
+    transition: .5s;
+}
+
+.nav-wrapper .container a {
+    font-size: 17px;
+    color: #fff
+}
+
+.nav-wrapper .container .titulo {
+    font-size: 35px;
+    color: #fff;
+}
+
+.nav-wrapper .container a i {
+    margin-top: 4px;
+    color: #fff;
+}
+
+/*¿Quién Soy?*/
+
+.fondo-section .container .section {
+    margin-bottom: 30px;
+}
+
+.fondo-section .container .section img {
+    display: flex;
+    float: left;
+    width: 180px;
+    height: 180px;
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 29px;
+}
+
+.fondo-section .container .section .me {
+    color: #fff;
+    margin-top: 34px;
+}
+
+.fondo-section .container .section .me li h6 {
+    font-size: 23px;
+}
+
+/*Habilidades*/
+
+#habilidades .container .section h5 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#habilidades .container .section .collapsible li .collapsible-header {
+    background: rgb(0, 0, 0);
+    transition: .6s;
+}
+
+#habilidades .container .section .collapsible li .collapsible-header:hover {
+    background: rgb(48, 48, 48);
+    transition: .6s;
+}
+
+#habilidades .container .section .collapsible li .collapsible-header i {
+    color: rgb(173, 173, 173);
+}
+
+#habilidades .container .section .collapsible li .collapsible-header {
+    color: rgb(173, 173, 173);
+}
+
+/*Proyectos*/
+
+#proyectos .container .section h5 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#proyectos .container .section .row .color .card {
+    background: rgb(134, 70, 97);
+    border: #000 solid 2px;
+}
+
+#proyectos .container .section .row .color .card .card-content .card-title {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+#proyectos .container .section .row .color .card .card-content p {
+    color: #000;
+    font-size: 15px;
+}
+
+#proyectos .container .section .row .color .card .card-action {
+    background: rgb(0, 0, 0);
+}
+
+#proyectos .container .section .row .color .card .card-action a {
+    color: rgb(131, 34, 94);
+}
+
+#proyectos .container .section .row .color .card .card-action a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*Contacto*/
+
+#contacto .container .row .cont ul li a i {
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .nav-wrapper .container a i {
+        margin-top: 0px;
+    }
+
+    .nav-wrapper .container .titulo {
+        font-size: 20px;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 810px) {
+
+    .fondo-section .container .section .me {
+        color: #fff;
+        margin-top: 52px;
+    }
+
+    .fondo-section .container .section .me li h6 {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 695px) {
+
+    .fondo-section .container .section .me {
+        color: #fff;
+        margin-top: 52px;
+    }
+
+    .fondo-section .container .section .me li h6 {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 590px) {
+
+    .fondo-section .container .section {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 300px;
+        margin: 15px;
+    }
+
+    #habilidades .container .section h5 {
+        width: 100%;
+    }
+
+    #habilidades .container .section .collapsible {
+        width: 100%;
+    }
+
+}
+
